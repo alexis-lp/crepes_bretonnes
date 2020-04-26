@@ -1,0 +1,3 @@
+<h1>{{ article.titre }}</h1> <span class="small"> dans {{ article.categorie.nom }}</span>
+<p class="infos">Rédigé par {{ article.auteur }}, le {{ article.date|date:"DATE_FORMAT" }}</p>
+<div class="contenu">{{ article.contenu|linebreaks }}</div>
